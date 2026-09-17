@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "model_type": "logistic_regression",
+  "model_file": "intent_classifier.json",
+  "sha256": "aa369185c573b3ccc6483f2626df7eca3442c9dc58c4c9bddafb0c87542381c9",
+  "labels": [
+    "churn_risk",
+    "neutral",
+    "price_objection",
+    "satisfaction",
+    "upsell_opportunity"
+  ],
+  "evaluation_summary": {
+    "data_origin": "synthetic",
+    "dataset_size": 100,
+    "train_size": 75,
+    "test_size": 25,
+    "accuracy": 0.48,
+    "precision_macro": 0.5022,
+    "recall_macro": 0.48,
+    "f1_macro": 0.472
+  },
+  "limitations": [
+    "Desempenho medido em uma amostra pequena e sintética, não em reuniões reais.",
+    "Confianças e indicadores comerciais não são probabilidades calibradas.",
+    "As classificações e recomendações exigem revisão humana."
+  ]
+}
